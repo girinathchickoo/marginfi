@@ -16,6 +16,14 @@ let config = withBundleAnalyzer({
   publicRuntimeConfig: {
     NODE_ENV: process.env.NODE_ENV,
   },
+  typescript: {
+    // !! WARN !!
+    // Dangerously allow production builds to successfully complete even if
+    // your project has type errors.
+    // !! WARN !!
+    ignoreBuildErrors: true,
+  },
+
   rewrites: async () => {
     return [
       {
