@@ -1,0 +1,24 @@
+name: vercel.prod-zelta
+env:
+  # VERCEL_ORG_ID: qzA8FMKX6yxk6NCTTruhHLJN
+  VERCEL_ORG_ID: team_jo1pGqZoUclHIJF9VHuPlE9j
+  VERCEL_PROJECT_ID: prj_wQcYH5K7n5V4t4Dep7QkwtGXfxhU
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [manual_deploy]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: yarn
+      - run: yarn install --immutable
+        # Hvf4EfdTkm77Q5Qn0TTMSSoG
+      - run: yarn vercel pull --yes --environment=production --token=8VHHOAkm929FzSKptLNq7cRR
+      - run: yarn vercel build --prod --token=8VHHOAkm929FzSKptLNq7cRR
+      - run: yarn vercel deploy --prod --prebuilt --token=8VHHOAkm929FzSKptLNq7cRR
