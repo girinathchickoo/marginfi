@@ -36,6 +36,7 @@ export default function Widget({
                   // from: { tokenAddress: "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee" }, // eth on optimism
                   to: { tokenAddress: selectedBank?.userInfo?.tokenAccount?.mint?.toString() || "" }, // usdc on solana
                 },
+                shouldPersistTxn:isOpen,
                 customTheme: {
                   text: {
                     primary: "#808080",

@@ -12101,10 +12101,10 @@ blakejs@^1.2.1:
   resolved "https://registry.yarnpkg.com/blakejs/-/blakejs-1.2.1.tgz#5057e4206eadb4a97f7c0b6e197a505042fc3814"
   integrity sha512-QXUSXI3QVc/gJME0dBpXrag1kbzOqCjCX8/b54ntNyW6sjtoqxqRk3LTmXzaJoh71zMsDCjM+47jS7XiwN/+fQ==
 
-blockend@^1.2.7:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/blockend/-/blockend-1.2.7.tgz#755bcdb5c20fda513784047443e516f3cbe635f6"
-  integrity sha512-GHTfXnEZKB6HecqaYDxG5EzgoV0mvUXWF3flgLaePScuNFoINOOV9oZ1RhJLpe1oeTjOxM9HlaEbDAQlSZcAtQ==
+blockend@^1.2.8:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/blockend/-/blockend-1.2.8.tgz#37401d8d551a388724182e80352a7a20333d9d01"
+  integrity sha512-4phXEZYyneSM6gW2g3H9qYuzXHmX0SsrOyW9UxYvgQ23gaiOc8Ga2P+ASiUEyLmcQu2+HTxJA47qBoNOnB0oiw==
 
 bluebird@3.7.2, bluebird@^3.7.2:
   version "3.7.2"

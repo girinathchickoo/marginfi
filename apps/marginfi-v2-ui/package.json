@@ -64,7 +64,7 @@
     "@web3auth/solana-provider": "^7.0.4",
     "@web3auth/solana-wallet-connector-plugin": "^7.0.4",
     "bignumber.js": "^9.1.1",
-    "blockend": "^1.2.7",
+    "blockend": "^1.2.8",
     "bn.js": "^5.2.1",
     "bs58": "^5.0.0",
     "class-variance-authority": "^0.7.0",
