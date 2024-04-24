@@ -169,9 +169,9 @@ export const Wallet = () => {
     // }
 
     // show error toast
-    if (!totalBalanceStr) {
-      showErrorToast("Error fetching wallet balance");
-    }
+    // if (!totalBalanceStr) {
+    //   showErrorToast("Error fetching wallet balance");
+    // }
 
     setWalletData({
       address: wallet?.publicKey.toString(),
